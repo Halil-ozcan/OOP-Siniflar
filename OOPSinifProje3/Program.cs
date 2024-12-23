@@ -10,6 +10,14 @@ namespace OOPSinifProje3
     {
         static void Main(string[] args)
         {
+            Araba araba = new Araba("27 ABF 235", "OPEL CORSA", 2022, false);
+
+            araba.bakimDurumu = true;
+            araba.BilgileriGoster();
+
+
+
+
         }
     }
 }
