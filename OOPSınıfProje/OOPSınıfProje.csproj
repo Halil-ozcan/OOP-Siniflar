@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1523134D-7B9A-4032-BA6D-59B28F88CEB3}</ProjectGuid>
+    <ProjectGuid>{697CC631-EB76-4A21-B092-5DD7FD005515}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OOP_Sınıflar</RootNamespace>
-    <AssemblyName>OOP-Sınıflar</AssemblyName>
+    <RootNamespace>OOPSınıfProje</RootNamespace>
+    <AssemblyName>OOPSınıfProje</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Musteri.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

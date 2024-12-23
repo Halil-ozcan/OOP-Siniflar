@@ -10,6 +10,12 @@ namespace OOP_Sınıflar
     {
         static void Main(string[] args)
         {
+            Musteri musteri = new Musteri();
+
+            musteri.TCkimlikNumara = "12345678901";
+            musteri.ad = "Halil";
+            musteri.soyad = "Özcan";
+            musteri.cinsiyet = "Erkek";
         }
     }
 }
